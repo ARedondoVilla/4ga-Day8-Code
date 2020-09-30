@@ -1,23 +1,23 @@
 require('./style.css');
 
-/*
-window.load = function() {
-    console.log('Hello world');
-}
-*/
+window.onload = function() {
 
-let pronoun = ['the','our'];
-let adj = ['great', 'big' ];
-let noun = ['jogger','racoon'];
+    let pronoun = ['the','our'];
+    let adj = ['great', 'big' ];
+    let noun = ['jogger','racoon'];
 
-let extension = ".com";
+    let extension = ".com";
 
-for (let i = 0; i < pronoun.length; i++) {
-    for (let j = 0; j < adj.length; j++)   {
-        for (let k = 0; k < noun.length; k++) {
-            console.log(pronoun[i]+""+adj[j]+""+noun[k]+""+extension);
+    for (let i = 0; i < pronoun.length; i++) {
+        for (let j = 0; j < adj.length; j++)   {
+            for (let k = 0; k < noun.length; k++) {
+                console.log(pronoun[i]+""+adj[j]+""+noun[k]+""+extension);
+            }
         }
     }
 }
+
+
+
 
 
